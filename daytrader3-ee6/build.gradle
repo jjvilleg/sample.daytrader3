@@ -107,5 +107,5 @@ assemble.dependsOn 'installApps','copyDerbyLib'
 
 // Run FVT by default
 check.dependsOn 'fvt'
-// do not create server since the usr directory is prebuilt.\
+// do not create server since the usr directory is prebuilt.
 libertyCreate.enabled = false
